@@ -1,6 +1,6 @@
 # Oppgave JavaScript
 
-![alt: oppgave](http://giphy.com/embed/rxJaqX8q7GGkw)
+![alt oppgave](http://giphy.com/embed/rxJaqX8q7GGkw)
 
 * Bruk [GIPHY’s API](https://github.com/Giphy/GiphyAPI) til å vise «trending GIF’s» fra GIPHY
 * Gjør det mulgi for brukeren å markere sine favoritter
