@@ -11,8 +11,8 @@ class Favorites extends Component {
 
   render() {
     const gifsArray = this.props.gif.gifs.fav;
-    const gifsList = gifsArray.map(gif =>
-      <GifItem  key={gif.id}
+    const gifsList = gifsArray.map((gif, index)=>
+      <GifItem  key={index}
                 gif={gif}
                 onFavoriteSelect={ selectedGif => this.props.actions.favoriteGif({selectedGif}) }
                 onFavoriteDeselect={ selectedGif => this.props.actions.unfavoriteGif({selectedGif}) }
