@@ -1,5 +1,4 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+
+.column:last-child:not(:first-child), .columns:last-child:not(:first-child){
+  float: left;
 }
