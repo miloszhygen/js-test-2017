@@ -5,6 +5,7 @@ import { Provider } from 'react-redux';
 import store from './store';
 import App from './components/App';
 import Home from './containers/Home';
+import Favorites from './containers/Favorites';
 import './index.css';
 
 ReactDOM.render(
@@ -12,6 +13,7 @@ ReactDOM.render(
     <Router history={browserHistory}>
       <Route path="/" component={App}>
         <IndexRoute component={Home}/>
+        <Route path="favorites" component={Favorites}/>
       </Route>
     </Router>
   </Provider>,
