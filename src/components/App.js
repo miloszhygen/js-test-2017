@@ -1,18 +1,13 @@
 import React, { Component } from 'react';
+import Header from '../containers/Header';
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
       <div>
-        <div className="App-header">
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Header />
+        {this.props.children}
       </div>
     );
   }
 }
-
-export default App;
