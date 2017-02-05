@@ -1,3 +1,6 @@
 {
-  "extends": "netliferesearch"
+  "extends": "netliferesearch",
+  "globals": {
+    "localStorage": true
+  }
 }
