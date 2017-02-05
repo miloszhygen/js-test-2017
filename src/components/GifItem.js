@@ -15,7 +15,7 @@ export default class gifItem extends Component{
     this.props.onFavoriteDeselect(this.props.gif);
   }
 
-  renderFavoriteHeart = () => {
+  renderFavoriteHeart() {
     if (this.state.favorited) {
       return <i className="favorite fa fa-heart" onClick={() => this.unFavGif()} />;
     }
