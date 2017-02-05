@@ -1,0 +1,13 @@
+{
+  "giphy": {
+    "API_URL":"http://api.giphy.com/v1/gifs/trending",
+    "API_KEY":"?api_key=dc6zaTOxFJmzC"
+  },
+  "firebase":{
+    "apiKey": "",
+    "authDomain": "",
+    "databaseURL": "",
+    "storageBucket": "",
+    "messagingSenderId": ""
+  }
+}
