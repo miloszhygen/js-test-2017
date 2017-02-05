@@ -1,10 +1,7 @@
-# Oppgave JavaScript
+# Svar på oppgaven
 
-![alt oppgave](http://i.giphy.com/kPVTbiTORIopy.gif)
+![alt svar](http://i.giphy.com/gLEaFiUlcaufm.gif)
 
-* Bruk [GIPHY’s API](https://github.com/Giphy/GiphyAPI) til å vise *trending GIF’s*
-* Gjør det mulig for brukeren å markere favoritter
-* Brukt [React](https://facebook.github.io/react/), [ES6](https://babeljs.io/learn-es2015/) og vår [kodestandard](https://github.com/netliferesearch/eslint-config-netliferesearch)
-* Applikasjonen skal kunne kjøres med `npm install` og `npm start`
-
-Lykke til!
+* You need to have create-react-app globally installed `npm install -g create-react-app`
+* Install the dependencies by running `npm install`
+* Run the app `npm start`
