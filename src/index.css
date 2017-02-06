@@ -2,3 +2,42 @@
 .column:last-child:not(:first-child), .columns:last-child:not(:first-child){
   float: left;
 }
+nav{
+  border-bottom: 1px solid lightgrey;
+}
+button:focus {
+  outline:0;
+}
+.text_center {
+  text-align: center;
+  padding-top: 10px
+}
+.favorite{
+  font-size: 1.2em;
+  height: 20px;
+  width: 100%;
+  text-align: right;
+  padding: 5px 5px 0 0;
+  color: red;
+}
+.gifitem{
+  padding: 5px;
+}
+.gifitem_container{
+  height: 250px;
+  overflow: hidden;
+  border: 1px solid lightgrey;
+}
+.gifitem_container:hover{
+  border: 1px solid black;
+}
+.gifitem_img{
+  height: 100%;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}

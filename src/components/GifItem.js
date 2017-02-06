@@ -21,12 +21,14 @@ export default class gifItem extends Component{
     }
     return <i className="favorite fa fa-heart-o" onClick={() => this.favGif()} />;
   };
-
+  
   render() {
     return (
-      <div className="small-12 medium-4 large-2 columns">
-        { this.renderFavoriteHeart() }
-        <img role="presentation" alt="" src={this.props.gif.images.downsized.url} />
+      <div className="small-12 medium-4 large-3 columns gifitem">
+        <div className="gifitem_container">
+          { this.renderFavoriteHeart() }
+           <div className="gifitem_img" style={{backgroundImage: 'url(' + this.props.gif.images.downsized_large.url + ')'}} />
+        </div>
       </div>
     )
   }
